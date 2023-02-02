@@ -1,31 +1,25 @@
 <?php
-// veriable
+// data type
 /*
-$name ='Abdur Rahim';
-$age = 24;
-$birth = 1998;
-
-echo $name;
-echo "\n";
-echo $age;
-echo "\n";
-echo "Bio {$name}, {$age}, {$birth}";
+int
+string
+boolean
+double/float
+arry
+object
+resorese
 */
+$name1 = "Abdur";
+$name2 = "Rahim";
+$age = 25;
 
-$country = "My Contry Name Bangladesh";
-$city = "Thakurgaon";
-$country = "Dhaka";
-
-define ('PI', 3.1415);
-
-echo $country;
-echo "\n";
-echo $city;
-echo "\n";
-echo $country;
+printf("My name is %s %s %s", strtoupper($name1), $name2, $age);
 echo "\n";
 
-echo "Value Of PI".PI;
-echo "\n";
-echo constant('PI');
+$planet1 = "Murcury";
+$planet2 = "Jupiter";
+
+echo "The smallet Planet is " .$planet1."The biggest Planet is " .$planet2."\n";
+echo "The smallet Planet is ($planet1) The biggest Planet is ($planet2)\n";
+printf("The smallet Planet is %s The biggest Planet is %s", $planet1, $planet2);
 ?>
