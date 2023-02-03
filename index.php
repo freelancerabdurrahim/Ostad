@@ -1,31 +1,11 @@
 <?php
-// $number = 20;
-// $number2 += 30;
-// $number3 =$number + 50;
-
-// $number -= 5;
-// $number2 = 5;
-// $division = $number / $number2;
-
-// $number =50 * 2;
-// $multi = (5*5) - (3*5);
-// $incri = 50;
-// $incri ++;
-
-/*
-$n = 11;
-$m = $n++;
-
-$m = $n++;
-$m = $n
-$n = $n+1
-*/
+$n = 12;
+$o = 013;
+$h = 0x2b;
 
 
-$x = 15;
-$y = ++$x;
+// printf("The Number is %d and %d and %d", $n, $o, $h);
 
-$x = $x+1
-$y = $x
-
-echo $y, "\n", $x;
+printf("The Binary equivalent of %d is %b \n", 16, 16);
+printf("The Octal equivalent of %d is %o \n", 1212, 1212);
+printf("The hexademal equivalent of %d is %x \n", 1212, 1212);
