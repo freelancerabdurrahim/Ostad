@@ -1,11 +1,17 @@
 <?php
-$n = 12;
-$o = 013;
-$h = 0x2b;
+$fname = "Abdur";
+$lname = "Rahim";
 
+printf('My Name is %2$s %1$s', $lname, $fname);
+echo "\n";
 
-// printf("The Number is %d and %d and %d", $n, $o, $h);
+$float1 = 25.12345;
+printf("%.3f", $float1);
+echo "\n";
 
-printf("The Binary equivalent of %d is %b \n", 16, 16);
-printf("The Octal equivalent of %d is %o \n", 1212, 1212);
-printf("The hexademal equivalent of %d is %x \n", 1212, 1212);
+$x = 12.235878;
+$y = 11.25769;
+printf("%04d \n",$x);
+printf("%04d \n",$y);
+printf("%08.3f \n",$x);
+printf("%08.3f \n",$y);
