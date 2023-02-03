@@ -1,25 +1,14 @@
 <?php
-// data type
-/*
-int
-string
-boolean
-double/float
-arry
-object
-resorese
-*/
-$name1 = "Abdur";
-$name2 = "Rahim";
-$age = 25;
+// $number = 20;
+// $number2 += 30;
+// $number3 =$number + 50;
+// $number -= 5;
+// $number2 = 5;
+// $division = $number / $number2;
 
-printf("My name is %s %s %s", strtoupper($name1), $name2, $age);
-echo "\n";
+$number =50 * 2;
+$multi = (5*5) - (3*5);
 
-$planet1 = "Murcury";
-$planet2 = "Jupiter";
-
-echo "The smallet Planet is " .$planet1."The biggest Planet is " .$planet2."\n";
-echo "The smallet Planet is ($planet1) The biggest Planet is ($planet2)\n";
-printf("The smallet Planet is %s The biggest Planet is %s", $planet1, $planet2);
-?>
+$incri = 50;
+$incri ++;
+echo $incri;
