@@ -22,6 +22,7 @@ if($year % 4 == 0 && ($year % 100 != 0 || $year % 400 == 0)){
 echo "\n";
 // leapyear end
 
+// nested if else start
 $condition1 = true;
 $condition2 = true;
 $condition3 = true;
@@ -50,4 +51,44 @@ if( $condition1 && $condition2 & $condition3){
 }
 else{
     echo "flase";
+}
+// nested if else start
+
+echo "\n";
+// ternary oparator
+
+$n = 10;
+if( $n == 12){
+    echo "Twelve";
+}elseif($n == 10){
+    echo "Ten";
+}else{
+    echo "A Number";
+}
+
+echo "\n";
+// $test = (12 == $n) ? "Twelve" : (10 == $n) ? "Ten" : "A Number";
+// $test = ($n == 12) ? "Twelve" : ($n == 10) ? "ten" : "Only Number";
+// echo $test;
+
+
+
+// switch
+$color = "orange";
+switch($color){
+    // case'red':
+    //     echo "{$color} my fuvorite color";
+    //     break;
+    // case 'white':
+    //     echo "{$color} my fuvorite color";
+    //     break;
+    case'red':
+    case'white':
+        echo ucwords ($color)." my fuvorite color";
+        break;
+    case'black':
+        echo "{$color} my not fuvorite color";
+        break;
+    default:
+    echo "{$color} This color is Oksy";
 }
