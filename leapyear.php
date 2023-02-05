@@ -144,3 +144,27 @@ echo "\n";
             
     }
 // Nested switch end
+
+echo "\n";
+echo "\n";
+// alternative syntax start
+$n = 25;
+if($n % 2 == 0){
+    echo "$n is Even Number";
+}else{
+    echo "$n is Odd Number";
+}
+
+echo PHP_EOL;
+if($n % 2 == 0):
+    echo "$n is Even Number";
+    echo PHP_EOL;
+    echo "Success Number";
+
+else:
+    echo "$n is Odd Number";
+    echo PHP_EOL;
+    echo "Success Number";
+    
+endif;
+// alternative syntax end
