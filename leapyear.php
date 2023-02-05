@@ -73,7 +73,7 @@ echo "\n";
 
 
 
-// switch
+// switch start
 $color = "orange";
 switch($color){
     // case'red':
@@ -92,3 +92,55 @@ switch($color){
     default:
     echo "{$color} This color is Oksy";
 }
+
+// switch end
+echo "\n";
+echo "\n";
+echo "\n";
+
+// Nested switch start
+    $n = 13;
+    $r = $n % 2;
+    switch($r){
+        case 0:{
+            switch($n){
+                case $n>0:
+                    echo "$n is a postive Even number";
+                    break;
+                
+                case $n<0:
+                    echo "$n is a Negative Even number";
+                    break;
+            }
+        }
+        break;
+       default:
+            switch($n){
+                case $n>0:
+                    echo "$n is a postive Odd Number";
+                    break;
+                case $n<0:
+                    echo "$n is a Negative Odd Number";
+                    break;
+            }
+        }
+
+       
+        echo "\n";
+
+    switch(true){
+        case $r == 0 && $n > 0:
+            echo "$n is a postive Even number";
+            break;
+        case $r == 1 && $n > 0:
+            echo "$n is a postive Odd number";
+            break;
+        case $r == 0 && $n < 0:
+            echo "$n is a Negative Even number";
+            break;
+        case $r == -1 && $n > 0:
+            echo "$n is a Negative Odd number";
+            break;
+            
+    }
+// Nested switch end
