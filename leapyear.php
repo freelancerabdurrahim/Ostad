@@ -168,3 +168,70 @@ else:
     
 endif;
 // alternative syntax end
+
+
+$number = 70;
+if($number <33){
+    echo "Fail";
+}
+elseif($number>60){
+    echo "first division";
+}
+elseif($number>=45 && $number<59){
+    echo "Second division";
+}
+elseif($number>=33 && $number<44){
+    echo "Third division";
+}
+else{
+    echo "Number wrong";
+}
+
+
+
+
+
+
+echo "\n";
+// ternary oparator
+
+$n = 15;
+if( $n == 12){
+    echo "Twelve";
+}elseif($n == 10){
+    echo "Ten";
+}else{
+    echo "A Number";
+}
+
+echo "\n";
+// $test = (12 == $n) ? "Twelve" : (10 == $n) ? "Ten" : "A Number";
+// $test = ($n == 12) ? "Twelve" : ($n == 10) ? "ten" : "Only Number";
+// echo $test;
+$lastTest = ($n == 11) ? "eleven" : (($n == 13) ? "thirtin" : (($n == 15) ? "fiftin" : "wrong"));
+// $lastTest = ($n == 11) ? "eleven" : (($n == 13) ? "thirtin" : "wrong");
+
+echo $lastTest;
+echo "\n";
+$age = 18;
+$gender = "female";
+$status = ($age >= 21) ? "adult" : (($gender == "female") ? "minor female" : "minor male");
+
+echo $status;
+
+
+echo PHP_EOL;
+$tuitionFree = 11000;
+$cummissionTax = ($tuitionFree > 20000) ? "25%" : (($tuitionFree > 10000 && 20000 > $tuitionFree) ? "20%" : (($tuitionFree < 10000 && 7000 > $tuitionFree) ? "15%" : "Invalid Amount"));
+ echo $cummissionTax;
+
+ 
+echo PHP_EOL;
+
+$tuitionFree =7000;
+$cummissionTax = ($tuitionFree >= 20000) ? "25%" : (($tuitionFree >= 10000 && 20000 > $tuitionFree) ? "25%" : (($tuitionFree < 10000 && 7000 >= $tuitionFree) ? "25%" : "Invalid Amount"));
+ echo $cummissionTax;
+
+
+
+ 
