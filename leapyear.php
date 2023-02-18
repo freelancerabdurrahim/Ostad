@@ -232,6 +232,12 @@ $tuitionFree =7000;
 $cummissionTax = ($tuitionFree >= 20000) ? "25%" : (($tuitionFree >= 10000 && 20000 > $tuitionFree) ? "25%" : (($tuitionFree < 10000 && 7000 >= $tuitionFree) ? "25%" : "Invalid Amount"));
  echo $cummissionTax;
 
+//  kisu akta problem hoise maybe
+
+
+
+
+
 
 
  
