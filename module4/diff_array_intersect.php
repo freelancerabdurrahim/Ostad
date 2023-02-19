@@ -16,3 +16,5 @@ $numbers_Common_diff= array_diff($numbers1,$numbers2);
 $fruits_Common_diff= array_diff($fruits1, $fruits2);
 print_r($numbers_Common_diff);
 print_r($fruits_Common_diff);
+
+
