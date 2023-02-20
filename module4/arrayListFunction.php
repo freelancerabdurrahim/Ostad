@@ -8,3 +8,4 @@ echo PHP_EOL;
 $studentName = array('Abdur', 'Rahim', 'ab@g.com', '52');
 list($firstName, $lastName, $email, $ID) = $studentName;
 echo $lastName;
+
