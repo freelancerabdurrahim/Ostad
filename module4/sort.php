@@ -1,7 +1,7 @@
 <?php
 
 $fruits= array('a'=>'apple','b'=>'banana','d'=>'Banana','c'=>'orange','plum','dates','mango');
-$numbers= array(1,22,55,8,6,77,55,4);
+// $numbers= array(1,22,55,8,6,77,55,4);
 asort($fruits,SORT_STRING);
 print_r($fruits);
 
