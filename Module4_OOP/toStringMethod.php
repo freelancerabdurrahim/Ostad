@@ -10,7 +10,7 @@ class Color{
         $this->color=$color;
     }
 
-    public __toString(){
+    function __toString(){
         return "This is a Color {$this->color}";
     }
 }
