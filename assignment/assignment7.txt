@@ -1,0 +1,67 @@
+a. To select all columns and rows from the employees table:
+	SELECT * FROM employees;
+
+b. To select only the name and salary columns of all employees with a salary greater than 50000:
+	SELECT name, salary FROM employees WHERE salary > 50000;
+
+c. To calculate the average salary of all employees:
+	SELECT AVG(salary) FROM employees;
+
+d. To count the number of employees who work in the "Marketing" department:
+	SELECT COUNT(*) FROM employees WHERE department_id = (SELECT id FROM departments WHERE name = 'Marketing');
+
+e. To update the salary column of the employee with an id of 1001 to 60000:
+	DELETE FROM employees WHERE salary < 30000;
+
+f. To delete all employees whose salary is less than 30000:
+	DELETE FROM employees WHERE salary < 30000;
+
+
+
+
+a. To select all columns and rows from the departments table:
+	SELECT * FROM departments;
+
+b. To select only the name and manager columns of the "Finance" department:
+	SELECT name, manager FROM departments WHERE name = 'Finance';
+
+c. To calculate the total number of employees in each department:
+	SELECT departments.name, COUNT(*) FROM employees INNER JOIN departments ON employees.department_id = departments.id GROUP BY departments.name;
+
+d. To insert a new department called "Research" with a manager named "John Doe":
+	INSERT INTO departments (name, manager) VALUES ('Research', 'John Doe');
+
+
+
+Description for each of the SQL commands:
+
+    SELECT * FROM employees;
+    This command selects all columns and rows from the employees table, retrieving all information about all employees.
+
+    SELECT name, salary FROM employees WHERE salary > 50000;
+    This command selects only the name and salary columns from the employees table for employees whose salary is greater than 50000.
+
+    SELECT AVG(salary) FROM employees;
+    This command calculates the average salary of all employees from the employees table.
+
+    SELECT COUNT(*) FROM employees WHERE department_id = (SELECT id FROM departments WHERE name = 'Marketing');
+    This command counts the number of employees in the Marketing department by finding the id of the Marketing department in the departments table and then counting the number of employees whose department_id matches this id in the employees table.
+
+    UPDATE employees SET salary = 60000 WHERE id = 1001;
+    This command updates the salary of the employee with an id of 1001 to 60000 in the employees table.
+
+    DELETE FROM employees WHERE salary < 30000;
+    This command deletes all rows from the employees table for employees whose salary is less than 30000.
+
+    SELECT * FROM departments;
+    This command selects all columns and rows from the departments table, retrieving all information about all departments.
+
+    SELECT name, manager FROM departments WHERE name = 'Finance';
+    This command selects only the name and manager columns from the departments table for the Finance department.
+
+    SELECT departments.name, COUNT(*) FROM employees INNER JOIN departments ON employees.department_id = departments.id GROUP BY departments.name;
+    This command counts the number of employees in each department by joining the employees and departments tables on the department_id and id columns respectively, and then grouping the result by department name.
+
+    INSERT INTO departments (name, manager) VALUES ('Research', 'John Doe');
+    This command inserts a new row into the departments table with the name "Research" and manager "John Doe".
+
