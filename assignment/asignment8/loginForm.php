@@ -3,6 +3,36 @@
 
 <head>
     <title>Login Form</title>
+    <style>
+		body{
+			margin: 50px;
+		}
+		label{
+			font-size: 18px;
+			font-weight: 700;
+			color: #000;
+			display: block;
+		}
+		input{
+			width: 50%;
+			border-radius: 15px;
+			padding: 15px 20px;
+			margin-top: 5px;
+			border: 1px solid green;
+		}
+		input[type="submit"]{
+			background-color: green;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+        @media all and (max-width:767px){
+			input{
+				width: 100%;
+			}
+
+		}
+	</style>
 </head>
 
 <body>
