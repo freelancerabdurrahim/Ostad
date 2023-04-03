@@ -1,0 +1,294 @@
+@media all and (max-width: 1200px){
+	.header-logo img {
+		width: 25%;
+	}
+
+	/*commutity*/
+	.single-commutity-blog {
+		flex: 0 0 50%;
+		padding-bottom: 20px;
+	}
+	.commutity-content {
+		width: 350px;
+		margin: auto;
+	}
+	.commutity-imag {
+		margin: auto;
+	}
+
+}
+@media all and (min-width: 992px){
+	.menu-area ul{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 992px){
+	/*header-area*/
+	.header-logo img {
+		width: 13%;
+		padding: 20px 0px;
+	}
+	/*menu*/
+	.menu-area ul {
+		flex-direction: column;
+		padding: 30px 0px;
+	}
+	.menu-area ul li a {
+		transition: .5s;
+		border-bottom: none !important;
+		/*color: #fff !important;*/
+		display: block;
+		margin: 0px; 
+		padding: 15px 20px;
+	}
+	.menu-area ul li a:hover{
+		background: #0d6efd;
+		color: #fff !important;
+		transition: .5s;
+	}
+	.menu-area {
+		width: 100%;
+	}
+	.menu-area ul{
+		display: none;
+	}
+	.menu-icon{
+		display: none;
+	}
+	.menu-bars{
+		display: block;
+	}
+
+
+	/*banner-area*/
+	.banner-area-section{
+		/*background-position: right;*/
+	}
+
+	/*portfolio-area-section*/
+	.single-portfolio {
+		flex: 0 0 50%;
+	}
+
+	/*.banner2-area*/
+	.banner2-area {
+		width: 80%;
+	}
+
+	/*team-member*/
+
+	.team-member-area {
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.single-team {
+		flex: 0 0 40%;
+		margin: 0px 30px;
+	} 
+
+	/*skills*/
+	.rasel-about {
+		max-width: 85%;
+		 padding-left: 0px; 
+		padding-bottom: 50px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.rasel-skills {
+		 padding-left: 0px; 
+		margin: auto;
+	}
+
+
+	/*.purchase-area*/
+	.purchase-area {
+		 padding: 0px; 
+	}
+
+	/*communutity*/
+	.commutity-blog-area {
+		margin-top: 50px;
+		justify-content: center;
+	}
+	.commutity-bottom {
+		padding-top: 25px;
+	}
+}
+
+@media all and (max-width: 768px){
+	/*headaer-menu*/
+	.header-logo img {
+		width: 20%;
+	}
+
+	/*banner-area*/
+	.banner-area-section{
+		padding: 50px 0px;
+	}
+	.banner-area h1 {
+		padding-top: 0px; 
+		font-size: 30px;
+	}
+
+	.banner-carousel .owl-dots {
+	 	top: 100%; 
+	}
+
+	/*.we-are-right*/
+	.we-are-right{
+		padding-top: 50px;
+	}
+
+		/*advantage*/
+	.advantages-left{
+		padding: 80px 100px 20px 100px;
+	}
+	.advantages-left h5 {
+		text-align: left;
+	}
+
+	/*single-offer*/
+	.single-offer {
+		flex: 0 0 50%;
+		margin-bottom: 25px;
+	}
+
+	/*portfolio-area-section*/
+	.portfolio-menu ul {
+		flex-wrap: wrap;
+	}
+	.team-member-area {
+		text-align: center;
+	}
+
+	.single-team {
+		flex: 0 0 100%;
+		margin-top: 30px;
+	} 
+	.single-img img {
+		width: auto;
+	}
+	.single-img::after {
+		width: 75%;
+	}
+	.content-team {
+		width: 75%;
+		left: 60px;
+	}
+	.single-img::after {
+		left: 60px;
+	}
+
+
+	/*purchase*/
+	.purchase-area {		
+		flex-direction: column;
+	}
+	.purchase-left {
+		padding-bottom: 30px;
+	}
+	.purchase-right {
+		padding-bottom: 30px;
+	}
+	.purchase-area-section .shap-offer {
+		top: 140px;
+	}
+
+
+
+	/*.priceing*/
+	.price-table {
+		flex-wrap: wrap;
+		padding-top: 50px;
+	}
+	.single-price-table {
+		flex: 0 0 100%;
+		margin-bottom: 100px;
+	}
+	.single-price-table:last-child{
+		margin-bottom: 0px;
+	}
+
+	/*tiwtter*/
+	.tiwtter-area p {
+		width: 100%;
+	}
+
+
+	/*.footer*/
+
+	.footer-logo img {
+		width: 30%;
+		padding: 20px 0px;
+	}
+
+	.footer-bottom {
+		flex-direction: column;
+		padding: 10px 0px;
+	}
+
+@media all and (max-width: 576px){
+		/*advantage*/
+	.advantages-left{
+		padding: 80px 70px 20px 70px;
+	}
+
+	/*single-offer*/
+	.single-offer {
+		flex: 0 0 100%;
+		margin-bottom: 25px;
+		padding: 0px 20px;
+	}
+
+	/*portfolio-area-section*/
+	.single-portfolio {
+		flex: 0 0 100%;
+	}
+
+}
+
+
+@media all and (max-width: 420px){
+	/*headaer-menu*/
+	.header-logo img {
+		width: 23%;
+	}
+
+	/*avantage*/
+	.offer-top-area h2 {
+		font-size: 20px;
+	}
+	.offer-top-area .shap-offer {
+		top: 60px;
+	}
+
+	/*single-offer*/
+	.single-offer {
+		margin-bottom: 50px;
+	}
+	.offer-designer-area-section {
+		background: #efefef;
+		padding-bottom: 50px;
+	}
+
+	/*team-member*/
+	.single-img::after {
+		height: 220px;
+	}
+	.single-img {
+		height: 300px;
+	}
+
+
+	/*.purchase*/
+	.purchase-left {
+		text-align: center;
+	}
+	.purchase-left h3{
+		line-height: 1.5;
+	}
+	.purchase-area-section .shap-offer {
+		top: 170px;
+	}
+}

@@ -1,0 +1,1704 @@
+/*
+===================================================================
+----------------------------Defult CSS-----------------------------
+===================================================================
+*/
+body{
+	margin: 0;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Open Sans';
+}
+.full-wrapper{
+	overflow: hidden;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+p{
+	color: #7f7f7f;
+	font-weight: 400;
+	font-size: 14px;
+}
+h2{
+	color: #333333;
+	font-weight: 400;
+	font-size: 30px;
+}
+h3 {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h5 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+}
+h6 {
+	color: #2a2a2a;
+	font-size: 16px;
+	font-weight: 300;
+}
+.head-h2 p{
+	padding-top: 5px;
+}
+.btn-stl-1 {
+	font-size: 18px;
+	color: #fff;
+	background: #2888e2;
+	padding: 9px 28px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 400;
+	box-shadow: 2px 2px 1px rgb(0, 0, 0,0.4);
+	transition: .5s;
+}
+.btn-stl-1:hover{
+	background: #fff;
+	color: #2888e2;
+	box-shadow: none;
+}
+.btn-stl-2{
+	color: #fff;
+	background: #2888e2;
+	padding: 6px 15px;
+	display: inline-block;
+	font-size: 12px;
+	border-bottom: 3px solid #1565af;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	transition: .5s;
+}
+.btn-stl-2:hover{
+	background: #1565af;
+	color: #fff;
+}
+.section-padding{
+	padding: 100px 0px;
+}
+/*
+===================================================================
+              Start Header Area CSS 
+===================================================================
+*/
+.header-area-section {
+	background: #fafbf9;
+	box-shadow: 0px 0px 10px #000;
+}
+.header-logo{
+
+}
+.header-logo img {
+	width: 20%;
+	height: auto;
+}
+.menu-area-ful{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-area ul{
+	display: flex;
+	justify-content: flex-start;
+}
+.menu-area ul li a {
+	color: #333333;
+	font-weight: 600;
+	font-size: 16px;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 30px 0px;
+	margin: 0px 15px;
+	transition: .5s;
+	border-bottom: 2px solid transparent;
+}
+.menu-area ul li:hover a,
+.menu-area ul li a.active{
+	color: #2c8ae2;
+	border-bottom: 2px solid #2c8ae2;
+}
+
+.menu-icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-icon a i {
+	width: 20px;
+	height: 20px;
+	background: #000;
+	font-size: 10px;
+	color: #fff;
+	border-radius: 50%;
+	margin-left: 20px;
+	line-height: 2;
+	text-align: center;
+}
+.menu-icon a i:hover{
+	background: #2c8ae2;
+	color: #fff;
+}
+.menu-icon a.active i{
+	background: #2c8ae2;
+	color: #fff;
+}
+
+
+/*bars*/
+.header-logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.menu-bars{
+	display: none;
+}
+.header-logo a i{
+	font-size: 20px;
+	border: 1px solid #2c8ae2;
+	padding: 5px;
+	border-radius: 3px;
+
+}
+/*
+===================================================================
+                        End Header Area CSS 
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+                     Start Banner Area CSS 
+===================================================================
+*/
+.banner-area-section{
+	background: url('../images/header-banner.png') no-repeat scroll 0 0 / cover;
+	padding: 180px 0px;
+}
+.banner-area h1 {
+	font-weight: 700;
+	font-size: 38px;
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	width: 85%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.batton-style{
+	text-align: center;
+	padding: 50px 0px;
+}
+.batton-style a{
+	margin: 0px 8px;
+}
+.banner-carousel button:focus{
+	outline: none;
+}
+.banner-carousel.owl-theme .owl-dots .owl-dot span {
+	width: 13px;
+	height: 13px;
+	margin: 5px 7px;
+	background: #D6D6D6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	transition: opacity .2s ease;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	background: transparent;
+}
+
+.banner-carousel.owl-theme .owl-dots .owl-dot span:hover{
+	background: #fff;
+}
+.banner-carousel .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 120%;
+}
+/*
+===================================================================
+                 End Banner Area CSS 
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+                    Start We-Are Area CSS 
+===================================================================
+*/
+.we-are-left p{
+	padding-top: 20px;
+}
+.we-are-left p span{
+	color: #2c8be3;
+}
+.we-are-btn{
+	position: relative;
+	padding-top: 30px;
+}
+.we-are-btn i {
+	position: absolute;
+	font-size: 12px;
+	color: #fff;
+	top: 63%;
+	left: 80px;
+	/* padding-left: 25px; */
+}
+.we-are-btn a{
+	padding-right: 30px;
+}
+.we-mac-img img{
+	width: 100%;
+	height: auto;
+}
+/*
+===================================================================
+                    End We-Are Area CSS 
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+                     Start Advantages Area CSS 
+===================================================================
+*/
+.advabtages-area-section{
+	background: #202020;
+}
+.advantages-left{
+	padding: 80px 0px 20px 120px;
+}
+.advantages-left h2{
+	color: #fff;
+}
+.advantages-left h5 {
+	color: #b1afaf;
+	font-weight: 300;
+	font-size: 16px;
+	padding: 10px 0px;
+	text-align: left;
+}
+.advantages-left p{
+	padding-bottom: 20px;
+}
+
+.single-star{
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.single-star i {
+	color: #2888e2;
+	font-size: 12px;
+	padding-right: 10px;
+}
+.single-star p{
+	padding-bottom: 0px;
+}
+
+
+.advan-right-img img{
+	width: 100%;
+	height: auto;
+}
+img{
+	padding: 0px;
+	margin: 0px;
+}
+/*
+===================================================================
+                   End Advantages Area CSS 
+===================================================================
+*/
+
+
+
+
+/*
+===================================================================
+                     Start Offer Area CSS 
+===================================================================
+*/
+.offer-top-area{
+	background: #2888e2;
+	position: relative;
+}
+.offer-top-area h2 {
+	color: #fff;
+	padding: 30px 0px;
+	font-size: 30px;
+}
+.shap-offer {
+	width: 40px;
+	height: 25px;
+	background: #2888e2;
+	margin: auto;
+	transform: rotate(316deg);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 70px;
+}
+
+
+
+.offer-designer-area-section{
+	background: #efefef;
+}
+.offer-design{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.single-offer{
+	flex: 0 0 32%;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	transition: 1s;
+}
+.single-offer a i {
+	color: #2888e2;
+	padding: 20px 20px;
+	text-align: center;
+	margin: auto;
+	border: 1px solid #2888e2;
+	border-radius: 50%;
+	position: relative;
+}
+.single-offer a i::after {
+	content: "";
+	position: absolute;
+	background: #2888e2;
+	height: 20px;
+	top: 39px;
+	left: 0;
+	width: 20px;
+	right: 0;
+	margin: auto;
+	transform: rotate(226deg);
+	display: none;
+	transition: 1s;
+}
+.single-offer:hover.single-offer a i::after{
+	display: block;
+	transition: 1s;
+}
+.single-offer h6 {
+	color: #666666;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 15px 0;
+}
+.single-offer:hover.single-offer a i,
+.single-offer a i.active{
+	background: #2888e2;
+	color: #fff;
+}
+
+.single-offer:hover.single-offer h6,
+.single-offer h6.active{
+	color: #2888e2;
+}
+
+
+.single-offer a i.single-offer a i::after {
+	background: #2888e2;
+	display: block;
+}
+
+
+.shap-offer-2{
+	width: 20px;
+	height: 20px;
+	background: #2888e2;
+
+}
+/*
+===================================================================
+                    End Offer Area CSS 
+===================================================================
+*/
+
+
+
+
+
+
+
+
+/*
+===================================================================
+                Start Portfolio Area CSS 
+===================================================================
+*/
+.portfolio-menu ul{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+}
+.portfolio-menu ul li{
+	color: #666666;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #eee;
+	transition: 1s;
+	cursor: pointer;
+}
+.portfolio-menu ul li:hover,
+.portfolio-menu ul li.active{
+	color: #2c8be3;
+	border-bottom: 2px solid #2c8be3;
+}
+
+
+.portfolio-area{
+	padding-top: 50px;
+}
+.portfolio-all{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.single-portfolio{
+	flex:0 0 33.33%;
+	padding-bottom: 35px;
+	overflow: hidden;
+	transition: 1s;
+
+}
+
+.portfolio-img{
+	position: relative;
+}
+.portfolio-img {
+	position: relative;
+	width: 90%;
+	height: auto;
+}
+.portfolio-img img {
+	width: 100%;
+	height: auto;
+}
+.portfolio-content{
+	background: #f1f1f2;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	position: relative;
+	overflow: hidden;
+	transition: 1s;
+	z-index: ;
+}
+.left-port-con a{
+	color: #7f7f7f;
+	font-weight: 400;
+	font-size: 12px;
+}
+.right-port-con{
+	display: flex;
+	justify-content: space-between;
+} 
+.right-sing-icon{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.right-sing-icon a i {
+	color: #666666;
+	font-size: 14px;
+	padding: 0px 10px;
+}
+.right-sing-icon h5{
+	color: #666666;
+	font-size: 14px;
+	padding-right: 10px;
+
+}
+
+
+/*overly*/
+.overly-portfolio{
+	position: absolute;
+	transform: scale(0);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(40, 136, 226, .5);
+	text-align: center;
+	transition: 1s;
+}
+.overly-portfolio a i {
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 110px;
+}
+.port-con-overly{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	left: 0;
+	background: #2888e2;
+	color: #fff;
+	transition: 1s;
+	z-index: 1;
+}
+
+.single-portfolio:hover .overly-portfolio{
+	transform: scale(1);
+}
+.single-portfolio:hover .port-con-overly{
+	transform: scale(1.5);
+}
+
+
+.left-port-con{
+	z-index: 11;
+}
+.single-portfolio:hover .left-port-con h6,
+.single-portfolio:hover .left-port-con a{
+	color: #fff;
+}
+.right-port-con{
+	z-index: 1111;
+}
+.single-portfolio:hover .right-port-con a i,
+.single-portfolio:hover .right-port-con h5{
+	color: #fff;
+}
+/*
+===================================================================
+                 End Portfolio Area CSS 
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+                     Start Banner2 Area CSS 
+===================================================================
+*/
+.banner2-area-section{
+	background: url('../images/banner2.png') no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 11;
+}
+.banner2-area-section:after{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.banner2-area{
+	width: 50%;
+	margin: auto;
+	background: rgba(0,0,0,.5);
+	text-align: center;
+	padding: 30px;
+}
+.work-banner h3 {
+	letter-spacing: 4px;
+}
+.work-banner p{
+	padding: 20px 0px;
+}
+.work-banner-tag a {
+	color: #2888e2;
+	font-size: 12px;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	position: relative;
+}
+.work-banner-tag a::after {
+	content: "";
+	position: absolute;
+	background: #2888e2;
+	width: 1px;
+	height: 10px;
+	top: 2px;
+	right: -12px;
+}
+.work-banner-tag a:last-child:after{
+	display: none;
+}
+
+
+.owl-nav {
+	color: #fff;
+}
+button:focus{
+	outline: none;
+}
+.banner2-area .owl-next {
+	position: absolute;
+	top: 100px;
+	right: -35px;
+	background: transparent;
+}
+.banner2-area .owl-prev {
+	position: absolute;
+	top: 100px;
+	left: -35px;
+}
+.banner2-area .owl-next:hover, 
+.banner2-area .owl-prev:hover {
+	background: transparent !important;
+}
+
+.banner2-area.owl-theme .owl-dots .owl-dot span {
+	display: none;
+}
+/*
+===================================================================
+                   End Banner2 Area CSS 
+===================================================================
+*/
+
+
+
+/*
+===================================================================
+                  Start Team Member Area CSS 
+===================================================================
+*/
+.team-member-area-section{
+	background: #f1f1f2;
+}
+.team-member-area{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.single-team{
+	flex:0 0 30%;
+}
+.single-img {
+	position: relative;
+	z-index: 2;
+	height: 370px;
+	
+}
+.single-img img {
+	width: 100%;
+	height: 100%;
+}
+.single-img::after {
+	content: "";
+	position: absolute;
+	background: #000;
+	top: 80px;
+	left: 0;
+	width: 105%;
+	height: 291px;
+	z-index: -1;
+	transition: 1s;
+}
+.single-img:hover.single-img::after{
+	background:#2888e2;
+}
+.active.single-img::after{
+	background:#2888e2;
+}
+.content-team{
+	width: 105%;
+	background: #ffffff;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+.content-team h6{
+	color: #2888e2;
+}
+.content-team-overly{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform: scale(0);
+	left: 0;
+	top: 0;
+	background: #fff;
+	transition: 1s;
+}
+.content-team-overly.active{
+	transform: scale(1);
+}
+.single-team:hover .content-team-overly{
+	transform: scale(1);
+}
+
+.team-overly-icon{
+	display: flex;
+	justify-content: center;
+}
+.team-overly-icon a i {
+	font-size: 14px;
+	color: #656565;
+	padding: 25px 5px;
+}
+
+/*
+===================================================================
+                  End Team Member Area CSS 
+===================================================================
+
+
+
+
+/*
+===================================================================
+                    Start Rasel Skills Area CSS 
+===================================================================
+*/
+.rasel-skills-area-section{
+	background: #2888e2;
+	position: relative;
+}
+.rasel-skills-area-section .shap-offer{
+	top: 0;
+}
+.rasel-about {
+	max-width: 85%;
+	padding-left: 125px;
+}
+.rasel-tag a{
+	color: #eaeaea;
+	padding-left: 0;
+	padding-right: 20px;
+}
+.rasel-about .work-banner-tag a::after {
+	content: "";
+	position: absolute;
+	background: #eaeaea;
+	width: 1px;
+	height: 10px;
+	top: 2px;
+	right: 8px;
+}
+.rasel-about p {
+	color: #eaeaea;
+	padding-top: 15px;
+}
+
+
+.rasel-skills{
+	max-width: 75%;
+	padding-left: 75px;
+}
+
+.progressBar {
+	margin-bottom: 26px;
+	margin-bottom: 1.66em;
+	position: relative;
+	
+}
+.progressBar h4 {
+	font-size: 16px;
+	text-transform: none;
+	margin-bottom: 7px;
+	margin-bottom: .33em;
+	color: #fff;
+}
+.progressBarcontainer {
+	width: 100%;
+	height: 8px;
+	background: #1c5182!important;
+	overflow: hidden;
+	border-radius: 0.3em;
+}
+.progressBarValue {
+	height: 10px;
+	float: left;
+	border-radius: 0.3em;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #fff 0%, #fff 100%);
+	background: -webkit-linear-gradient(-45deg, #fffffffff 0%, #ffffffffffff 100%);
+	background: linear-gradient(135deg, #ffffff 0%, #fff 100%);
+}
+
+.speech-bubble {
+	font-size: 0.75em;
+	line-height: 2em;
+	position: absolute;
+	top: -0.60em;
+	text-align: center;
+	min-width: 4em;
+	border-radius: 0.3em;
+	color: #1c5182;
+	display: none;
+}
+
+.speech-bubble:after {
+	border: 0.5em solid transparent;
+	content: "";
+	margin-left: -0.5em;
+	position: absolute;
+	bottom: -50%;
+	left: 25%;
+}
+
+.html {
+	left: calc(88.5% - 1.5em);
+}
+  
+.css{
+	  left: calc(78.5% - 1.5em);
+}
+
+.javascript{
+	left: calc(58.5% - 1.5em);
+} 
+
+.react{
+	left: calc(48.5% - 1.5em);
+}
+
+.jquery{
+	left: calc(58.5% - 1.5em);
+}
+
+.html,
+.css,
+.javascript,
+.react,
+.jquery {
+	background: #fff;
+}
+  
+.html:after {
+	border-top-color: #fff;
+}
+
+.css:after{
+	border-top-color:#fff;
+}
+
+.javascript:after{
+	border-top-color:#fff;
+}
+/*
+===================================================================
+                  End Rasel Skills Area CSS 
+=================================================================== 
+*/
+
+
+
+/*
+===================================================================
+                 Start Customer Review Area CSS 
+=================================================================== 
+*/
+.customer-review-area-section{
+	background: url(../images/customer/customer.png) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 1111;
+}
+.customer-review-area-section:after{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.customer-head h2{
+	color: #fff;
+}
+.customer-head p{
+	color: #fff;
+}
+.single-customer{
+	width: 100%;
+	height: 100%;
+}
+.single-customer img{
+	width: 100%;
+	height: 100%;
+}
+.customer-img-area{
+	display: flex;
+	padding: 60px 10px;
+}
+.single-customer{
+	position: relative;
+}
+.single-customer:after{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.single-customer img{
+	width: 100%;
+}
+
+.customer-bottom{
+	width: 70%;
+	margin: auto;
+}
+.customer-bottom h3 {
+	text-align: center;
+	/* color: red; */
+	line-height: 2;
+	font-style: italic;
+}
+.customer-bottom-tag a{
+	letter-spacing: 0px;
+	font-size: 14px;
+}
+.customer-bottom-tag{
+	padding-top: 20px;
+}
+.customer-bottom-tag a span{
+	color: #ffffff;
+}
+.customer-bottom-tag.work-banner-tag a::after {
+	top: 5px;
+}
+
+
+.customer-img-area.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+	display: block;
+}
+.customer-img-area.owl-theme .owl-dots .owl-dot span {;
+	display: none;
+}
+.customer-img-area.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent;
+}
+.customer-img-area .owl-prev {
+	position: absolute;
+	top: 43%;
+	left: -20px;
+}
+.customer-img-area .owl-next {
+	position: absolute;
+	top: 43%;
+	right: -20px;
+}
+
+
+/*
+===================================================================
+                End Customer Review Area CSS 
+=================================================================== 
+*/
+
+
+/*
+===================================================================
+                Start Purchase Area CSS 
+=================================================================== 
+*/
+.purchase-area-section{
+	background: #2888e2;
+	padding: 30px 0px;
+	position: relative;
+}
+.purchase-area{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 50px;
+}
+.purchase-right a{
+	color: #fff;
+	padding: 8px 15px;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	transition: 1s;
+}
+.purchase-right a:hover{
+	background: #fff;
+	color: #2888e2;
+}
+.purchase-area-section .shap-offer {
+	top: 60px;
+}
+
+/*
+===================================================================
+               End Purchase Area CSS 
+=================================================================== 
+*/
+
+
+
+/*
+===================================================================
+                 Start Priceing Table Area CSS 
+=================================================================== 
+*/
+.priceing-table-area-section{
+	background: #efefef;
+}
+.priceing-head h2{
+	font-weight: 300;
+}
+.priceing-head p{
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	color:#959595;
+	padding-top: 10px;
+}
+.price-table {
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+.single-price-table{
+
+	background: #fff;
+	margin: 0px 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+
+}
+.price-top{
+	background: #ea5974;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom: 1px solid #d04962;
+}
+.price-top h5{
+	padding: 10px 15px;
+}
+
+
+.price-price{
+	background: #f5617d;
+}
+.price-price h1{
+	color: #fff;
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100;
+	padding: 5px;
+}
+.price-price h1 sup {
+	font-size: 12px;
+	top: -22px;
+}
+.price-price h1 sub {
+	font-size: 12px;
+}
+.price-features{
+	padding: 5px;
+	text-align: center;
+
+}
+.price-features h5{
+	color: #000;
+	padding: 10px 0px;
+}
+.price-features{
+	padding: 0px 20px;
+}
+.price-features p {
+	color: #666666;
+	font-weight: 300;
+	padding: 5px 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.back-p {
+	background: #f8f8f8;
+	box-shadow: 1px 1px 4px #ddd;
+}
+.price-bottom{
+	background: #f5617d;
+	margin: 25px 20px;
+	border-radius: 3px;
+	border-bottom: 1px solid #d0425d;
+	text-align: center;
+}
+.price-bottom a{
+	padding: 6px;
+	display: inline-block;
+	color: #fff;
+}
+.blue-price-top{
+	background: #1b76cc;
+	border-bottom: 1px solid #1163b1;
+	position: relative;
+	border-radius: 0px;
+}
+.blue-price-top:after{
+	content: "Most Popular";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: -33px;
+	left: 0;
+	background: #fff;
+	border-radius: 5px 5px 0px 0px;
+	border:1px solid #ddd;
+	border-bottom: none;
+	color: #2888e2;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 5px;
+	font-size: 14px;
+}
+.blue-price-price{
+	background: #2888e2;
+}
+.blue-price-bottom{
+	background: #2888e2;
+	border-bottom: 1px solid #1163b1;
+}
+.sky-price-top {
+	background: #5cb1a1;
+	border-bottom: 1px solid #53a293;
+}
+.sky-price-price{
+	background: #74c8b8;
+}
+.sky-price-bottom{
+	background: #74c8b8;
+	border-bottom: 1px solid #5cb1a1;
+}
+
+/*
+===================================================================
+                  End Priceing Table Area CSS 
+=================================================================== 
+*/
+
+
+/*
+===================================================================
+                      Start twitter Area CSS 
+=================================================================== 
+*/
+.twitter-area-section{
+	background: url(../images/twitter.png) no-repeat scroll 0 0 / 100% 100%;
+	position: relative;
+	z-index: 111;
+	padding-bottom: 30px;
+}
+.twitter-area-section:after{
+	content: "";
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.tiwtter-area p {
+	color: #f4ecec;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+/*.tiwtter-area p:after{
+	content: "";
+	position: absolute;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	top: -35px;
+	left: 0;
+}*/
+.tiwtter-area p b{
+	color: #fff;
+}
+.tiwtter-area p a{
+	color: #fff;
+}
+
+
+.tiwtter-area.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+	display: none;
+}
+
+.tiwtter-area.owl-theme .owl-dots .owl-dot span {
+	background: transparent;
+	border: 1px solid #ddd;
+	width: 10px;
+	height: 10px;
+}
+.tiwtter-area.owl-theme .owl-nav.disabled + .owl-dots {
+	margin-top: 100px;
+}
+.tiwtter-area.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #fff;
+}
+/*
+===================================================================
+                      End twitter Area CSS 
+=================================================================== 
+*/
+
+
+
+/*
+===================================================================
+                     Start Commutity Area CSS 
+=================================================================== 
+*/
+.commutity-area-section{
+	background: #f1f1f2;
+}
+.commutity-blog-area{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+.single-commutity-blog{
+	flex: 0 0 33.33%;
+	margin-bottom: 20px;
+}
+.commutity-content {
+	padding: 20px;
+	box-sizing: border-box;
+	position: relative;
+	background: #fff;
+	margin: 0px 10px;
+}
+.commutity-imag{
+	width: 350px;
+	height: 280px;
+	margin-left: 10px;
+	position: relative;
+	z-index: 2222;
+}
+.commutity-imag img{
+	width: 100%;
+	height: 100%;
+}
+.commutity-content h6 {
+	color: #202020;
+	font-size: 14px;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+.commutity-tag{
+	padding-bottom: 8px;
+}
+.commutity-tag a {
+	color: #5a5a5a;
+	font-size: 11px;
+	padding-left: 0;
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+.commutity-tag.work-banner-tag a::after {
+	background: #5a5a5a;
+	top: 4px;
+	right: 8px;
+}
+
+
+
+/*overly*/
+.overly-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.overly-icon-com {
+	display: flex;
+	align-items: center;
+	margin: 0px 5px;
+	padding: 0px 10px;
+	border-radius: 28px;
+}
+.play-com {
+	/* background: black; */
+	position: absolute;
+	width: 100%;
+	right: 0;
+	margin: auto;
+	top: 35%;
+	left: 45%;
+	transform: scale(0);
+}
+.commutity-imag:hover .play-com {
+	transform: scale(1);
+}
+.commutity-imag img:hover .play-com a i{
+	visibility:visible;
+	transform: scale(1);
+}
+.play-com.active{
+	/* background: black; */
+	position: absolute;
+	width: 100%;
+	right: 0;
+	margin: auto;
+	top: 35%;
+	left: 45%;
+	transform: scale(1);
+}
+.play-com a i{
+	
+	font-size: 50px;
+	color: #2888e2;
+	position: relative;
+	z-index: 111;
+}
+.play-com a i::after {
+	content: "";
+	position: absolute;
+	background: #fff;
+	top: 3px;
+	left: 3px;
+	width: 90%;
+	height: 80%;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.overly-icon-com a{
+	margin: 0px 2px;
+}
+.overly-icon-com a i{
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.overly-icon-com a h4{
+	font-size: 12px;
+}
+.overly-icon-com.sms{
+	background: #2888e2;
+}
+.overly-icon-com.heart{
+	background: #ec768c;
+}
+.overly-icon-com.share{
+	background: #6dcab7;
+}
+.overly-img-community {
+	position: absolute;
+	top: 240px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.overly-area i{
+	color: #fff;
+	z-index: 11111;
+}
+.overly-area h4{
+	color: #fff;
+	z-index: 11111;
+}
+
+
+
+.commutity-bottom{
+	padding-top:70px;
+}
+.commutity-bottom a{
+	color: #2888e2;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid #2888e2;
+	border-radius: 28px;
+	transition: 1s;
+}
+.commutity-bottom a:hover{
+	background: #2888e2;
+	color: #fff;
+}
+.commutity-bottom a:hover i{
+	color: #fff;
+	transition: 1s;
+}
+/*
+===================================================================
+                       End Commutity Area CSS 
+=================================================================== 
+*/
+
+
+
+
+/*
+===================================================================
+                       Start Contact Area CSS 
+=================================================================== 
+*/
+.contact-area-section{
+	background: url(../images/contact.png) no-repeat scroll 0 0 / cover;
+	position: relative;
+	z-index: 111;
+}
+.contact-area-section:after{
+	content: "";
+	position: absolute;
+	background: rgb(0,0,0,.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.contact-area h2{
+	color: #fff;
+}
+.contact-area p{
+	color: #fff;
+}
+
+.form-area{
+	padding-top: 70px;
+}
+
+input[type="text"],
+textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	background: transparent;
+	border: 1px solid #ddd;
+	color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 15px;
+}
+input[type="email"]{
+	padding: 10px;
+	width: 85%;
+	border: 1px solid #ddd;
+	color: #2888e2;
+	font-size: 15px;
+
+}
+input[type="submit"] {
+	width: 15%;
+	padding: 9px;
+	background: #2888e2;
+	border: 1px solid #2888e2;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.submit-button {
+	position: relative;
+}
+.submit-button i {
+	color: #FFF;
+	position: absolute;
+	font-size: 20px;
+	top: 10px;
+	right: 30px;
+}
+
+
+.form-area p{
+	padding-top: 30px;
+	color: #ddd;
+	font-size: 12px;
+}
+
+
+input[type="text"]::placeholder,
+textarea::placeholder{
+	color: #ffffff;
+	opacity: 100%;
+
+}
+/*
+===================================================================
+                     End Contact Area CSS 
+=================================================================== 
+*/
+
+
+
+/*
+===================================================================
+                 Start Footer Area CSS 
+=================================================================== 
+*/
+.footer-area-section{
+	background: #202020;
+}
+.footer-area-section.section-padding {
+	padding: 50px 0px;
+}
+.footer-head h6{
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.footer-logo img {
+	width: 60%;
+	padding-top: 90px;
+	color: #fff;
+}
+/*about-us*/
+
+.about-us p,
+.recent-work p,
+.need-help p{
+	color: #c1c1c1;
+	font-size: 13px;
+}
+.about-us {
+	width: 90%;
+}
+.about-us-contact{
+	padding-top: 30px;
+}
+.single-about-cont{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-top: 2px solid #2c2c2c;
+}
+.single-about-cont a{
+	padding-right: 15px;
+}
+.single-about-cont a i{
+	color: #c1c1c1;
+}
+
+
+/*recent-post*/
+.recent-img-gallery{
+	display:flex;
+	flex-wrap: wrap;
+}
+.recent-img-gallery img{
+	width: 100px;
+	height: auto;
+	padding: 0px 3px 3px 0px;
+}
+.recent-tag{
+	margin-top: 10px;
+	
+}
+.recent-tag a{
+	color: #757575;
+}
+.recent-tag a i{
+	color: #2888e2;
+	padding-top: 5px;
+}
+
+
+
+
+.need-help-social-icon{
+	display: flex;
+	padding-top:20px;
+	justify-content: flex-start;
+}
+.need-help-social-icon a i {
+	color: #c1c1c1;
+	padding-right: 10px;
+}
+.need-help-social-icon a i:hover{
+	color: #2888e2;
+}
+
+/*footer-bottom*/
+.footer-bottom{
+	background: #2e2e2e;
+}
+
+.footer-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0px;
+}
+.footer-menu ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-menu ul li a{
+	color: #666666;
+	font-size: 12px;
+	padding: 5px 10px;
+	display: inline-block;
+
+}
+.footer-menu ul li a.active,
+.footer-menu ul li:hover a{
+	color: #2888e2;
+}
+
+.footer-copy p{
+	font-size: 12px;
+}
+.footer-copy p span{
+	color: #ddd;
+}
+
+.padd-top{
+	padding-top: 50px
+}
+/*
+===================================================================
+                    End Footer Area CSS 
+=================================================================== 
+*/
+.header-area-section{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	transition: .3s;
+}
+/*.header-area-section.sticky{
+	padding: 3px 0px;
+}*/
+.header-area-section.sticky .menu-area ul li a {
+	padding: 33px 0px;
+}
