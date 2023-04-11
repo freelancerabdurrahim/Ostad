@@ -4,18 +4,81 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Live Test Module 10</title>
+  <style>
+    .navbar {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navbar-nav.show {
+    transform: translateX(0);
+  }
+
+  .navbar-nav li {
+    display: block;
+  }
+  
+  .nav-item {
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+}
+
+  </style>
 </head>
 <body>
   
-  <div class="wrapper">
-    <p>
-      <span></span>
-    </p>
-    <h2>
-      <h4 class="class">this is my</h4>
-    </h2>
-  </div class="wrapper">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
 
 </body>
 </html>
